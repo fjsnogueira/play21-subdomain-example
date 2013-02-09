@@ -1,0 +1,1 @@
+GET     /yummy                      controllers.Zoubah.miam
