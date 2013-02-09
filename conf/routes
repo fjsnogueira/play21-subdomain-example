@@ -9,12 +9,14 @@ GET     /assets/*file               controllers.Assets.at(path="/public", file)
 [me]
 GET     /                           controllers.Application.index
 
-# Secured route
+# Username param in the domain
 [:id.example.local]
 GET     /plop                       controllers.Application.plop(id)
+
+# Secured route
 SGET    /hello/*world               controllers.Application.hello(world)
 
 # subproject
 [verylonglocalhostname]
 ->  /                               borkbork.Routes
-->  /zoubah                           zoubah.Routes
+->  /zoubah                         zoubah.Routes
