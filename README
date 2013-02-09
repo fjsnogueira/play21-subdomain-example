@@ -1,4 +1,12 @@
-This is your new Play 2.1 application
-=====================================
+This is an example of a Play 2.1 application
+============================================
 
-This file will be packaged with your application, when using `play dist`.
+This application with a proof of concept (with related tests) of my branch feature-subdomain in Play20.
+
+This is auick example of a small web application in Play 2.1 that can match subdomains in routes.
+The patch enables to :
+- use Include files (for example, if you want to have an api.example.com defined in an external api.routes files)
+- have domain params (for example, if you want to match http://[username].example.com/ to your controller)
+- get the subdomain easily (by providing a 'subdomain' param in the controllers actions)
+
+Any comments about it are welcome.
