@@ -1,7 +1,7 @@
 This is an example of a Play 2.1 application
 ============================================
 
-This application with a proof of concept (with related tests) of my branch feature-subdomain in Play20.
+This application is a proof of concept (with related tests) of my branch feature-subdomain in Play20.
 
 This is auick example of a small web application in Play 2.1 that can match subdomains in routes.
 The patch enables to :
